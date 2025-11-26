@@ -119,3 +119,22 @@ footer {
 footer p {
   color: white;
 }
+
+.cta-text {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--gray-100);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+.cta-text a {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cta-text a:hover {
+  text-decoration: underline;
+}
